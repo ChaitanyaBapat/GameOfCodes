@@ -1,0 +1,64 @@
+.container {
+	margin : 0px;
+	padding: 0px;
+	background-color: #FAFAFA;
+	font-family: 'Nunito', sans-serif;	}
+
+.header-container {
+	top:0px;
+	position:sticky;
+}
+.header {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #263238;
+	color: #FAFAFA;
+	font-size: 30px;
+	text-align: center;
+}
+.rest-of-the-body{
+	
+}
+.question{
+	position: relative;
+	z-index: 100;
+	background-color: #F5F5F5;
+	overflow-x: visible;
+	overflow-y:visible;
+	font-size: 18px;
+	margin:10px;
+}
+.answer {
+	bottom: 0px;
+	position: fixed;
+	z-index: 1000;
+	background-color: #263238;
+	color: #FAFAFA;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	text-align: center;
+	display: block;
+	width: 100%;
+	border:1px solid black;
+	font-size: 20px;
+	height: 20%;
+	overflow-y:visible;
+}
+.form {
+
+}
+.input-from-user {
+	border: 2px solid red;
+	width: 70%;
+	height: 50px;
+	font-size: 24px;
+	resize: none;
+}
+.submit-btn {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #FAFAFA;
+	color: #263238;
+	border-radius: 2px;
+	font-size: 16px;
+}
